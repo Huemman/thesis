@@ -9,7 +9,7 @@ class Post(models.Model):
     authors = models.CharField(max_length=200)
     adviser = models.CharField(max_length=200)
     department = models.CharField(max_length=200)
-    astract = models.TextField()
+    abstract = models.TextField()
 
 
     def __str__(self):
